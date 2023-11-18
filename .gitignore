@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore compiled binaries
+*.dll
+*.so
+*.dylib
+
+# Ignore cache and compiled files
+.cache/
+__pycache__/
+
+# Ignore .env files
+.env
+
+# Ignore .DS_Store files (macOS)
+.DS_Store
+
+# Ignore generated HTML files
+*.html
