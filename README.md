@@ -1,5 +1,6 @@
 # HOW TO USE
-## 1. Make a .env file with the following sample
+## 1. Create a postgres database
+## 2. Create a .env file with the following sample
 <br />
 
 #### **ENV CONFIG SAMPLE**
@@ -11,6 +12,7 @@ host=hostname \
 port=port
 
 #### **Database table names**
+### ** Creating the database tables during step 1. is optional **
 
 ANIME_TABLE_NAME=anime \
 MANGA_TABLE_NAME=manga
@@ -20,3 +22,5 @@ MANGA_TABLE_NAME=manga
 *ONLY PUT METHODS YOU WANT TO ALLOW*
 
 ALLOWED = ['GET', 'POST', 'PUT', 'DELETE']
+
+
