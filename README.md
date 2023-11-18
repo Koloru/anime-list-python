@@ -12,7 +12,7 @@ host=hostname \
 port=port
 
 #### **Database table names**
-### ** Creating the database tables during step 1. is optional **
+### **Creating the database tables during step 1. is optional**
 
 ANIME_TABLE_NAME=anime \
 MANGA_TABLE_NAME=manga
